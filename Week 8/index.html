@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <style>
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+  body {background-color: rgb(white);
+        font-family: monospace;
+        }
+  main {background-color: rgb(white); }
+
+
+  main
+      h2 {color: black;
+          position: relative; top: -600px
+          font: -5px
+
+      }
+
+      nav{
+
+      }
+
+      nav ul {
+
+
+      }
+
+      nav ul li{list-style: none;
+                color: black;
+                position: relative; top: -400px;
+                position: relative; margin-left: -30px;
+      }
+
+      nav ul li a{text-decoration: none;
+                  font-size: 10px;
+
+
+
+      }
+
+      nav ul li a:hover{
+        background-color: pink;
+      }
+
+    main{
+    width: 1152px;
+    height: 620px;
+    margin-top: 30px;
+    background-color: aliceblue;
+    }
+
+    #grid1{
+      /* height: auto;
+      display: grid;
+      grid-template-rows: 400px;
+      grid-template-columns: 200px 480px;
+      min-width: 0; */
+
+      width: 800px;
+
+    }
+
+    .images{
+      display: inline-block;
+    }
+    #col1{
+      width: 160px;
+      height: auto;
+
+      display: inline-block;
+    }
+
+    #col2{
+      width: 500px;
+      height: auto;
+
+      display: inline-block;
+    }
+
+    #imageContainer{
+      width: 980px;
+      height: 650px;
+      overflow-x: scroll;
+       overflow-y: hidden;
+  white-space: nowrap;
+    }
+
+
+  </style>
+</head>
+<body>
+<header></header>
+
+<main>
+
+  <div id="grid1">
+      <div id="col1">
+        <h2>Carolina Perez</h2>
+        <nav>
+          <ul>
+            <li><a href="index.html">editorial</a></li>
+            <li><a href="artwork.html">artwork</a></li>
+            <li><a href="resume.html">cv</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+      <div id="col2">
+        <div id="imageContainer">
+        <img class="images" src="images/1.jpg" width="470">
+        <img class="images" src="images/2.jpg" width="470">
+        <img class="images" src="images/3.jpg" width="470">
+        <img class="images" src="images/4.jpg" width="470">
+
+
+      </div>
+
+
+
+  </div>
+
+
+
+
+
+  </main>
+
+</body>
+</html>
