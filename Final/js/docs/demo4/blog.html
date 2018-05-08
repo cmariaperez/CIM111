@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blog</title>
+<meta name="blog" content="articles, blog">
+<link rel="stylesheet" href="desktop3.css">
+</head>
+<body>
+
+<div class="header">
+  <img src= "assets/book.jpg" width="300">
+</div>
+
+<div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="blog.html">Blog</a>
+  <a href="gallery1.html">Gallery</a>
+  <a href="index.html" class="right">By Carolina Perez</a>
+</div>
+
+
+<div class="row">
+  <div class="side">
+
+      <img src="assets/11.jpg" width="200">
+<img src="assets/10.jpg" width="200">
+    <img src="assets/14.png" width="200">
+    <img src="assets/12.jpg" width="200">
+
+  </div>
+  <div class="box" id="box1">
+      <h2>BUSINESS</h2>
+      <div id="box1info"><a href="b&w.html">The Psychology of Black and White, May 29th 2018</a>
+      <p>Business leaders get in our heads</p>
+</div>
+
+  <div class="box" id="box2">
+      <h2>FASHION</h2>
+      <div id="box2info"><a href="#">The Simplest Form, May 24th 2018</a>
+      <p>What would you wear?</p>
+
+</div>
+
+<div class="box" id="box3">
+    <h2>ART</h2>
+    <div id="box3info"><a href="#">Creatives Create, May 29th 2018</a>
+    <p>COMING SOON</p>
+
+    <div class="box" id="box4">
+        <h2>MISC</h2>
+        <div id="box4info"><a href="#">More to come, June 10th 2018</a>
+        <p>COMING SOON </p>
+
+</div>
+
+<script src="dist/jquery-3.3.1.min.js"></script>
+<script>
+  $(document).ready(function(){
+    //all javascript goes in here
+    $("body").css("background-color", "black");
+
+
+
+    $("#box1info").hide();
+
+
+    $("#box1").click(function(){
+      $("#box1info").toggle(1000);
+    });
+
+    $("#box1").mouseover(function(){
+      $("#box1").css("color", "black");
+    });
+
+  });
+  $("#box2info").hide();
+
+
+  $("#box2").click(function(){
+    $("#box2info").toggle(1000);
+  });
+
+  $("#box2").mouseover(function(){
+    $("#box2").css("color", "black");
+  });
+
+
+
+  $("#box3info").hide();
+
+
+  $("#box3").click(function(){
+    $("#box3info").toggle(1000);
+  });
+
+
+  $("#box3").mouseover(function(){
+    $("#box3").css("color", "black");
+  });
+
+  $("#box4info").hide();
+
+
+  $("#box4").click(function(){
+    $("#box4info").toggle(1000);
+  });
+
+  $("#box4").mouseover(function(){
+    $("#box4").css("color", "black");
+  });
+
+
+
+
+
+
+
+
+
+  //no code after here
+</script>
+
+
+</div>
+
+</body>
+</html>
